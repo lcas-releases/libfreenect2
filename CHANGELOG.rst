@@ -2,6 +2,25 @@
 Changelog for package libfreenect2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2019-11-24)
+------------------
+* Merge pull request `#3 <https://github.com/LCAS/libfreenect2/issues/3>`_ from LCAS/new
+  Pulled upstream and made more general for cuda
+* Fixed cuda
+* new cuda
+* Merge branch 'master' of https://github.com/OpenKinect/libfreenect2 into new
+* Update TegraJPEG detection
+  Use jpeglib.h from /usr/src/tegra_multimedia_api.
+  Remove old source downloading and Tegra version detection routines.
+  Remove support for 32-bit platforms (probably TK1).
+* Add android build script and instructions (`#1060 <https://github.com/LCAS/libfreenect2/issues/1060>`_)
+* Add setting of LEDs (`#1052 <https://github.com/LCAS/libfreenect2/issues/1052>`_)
+* docs: Remove homebrew/versions from instructions
+  homebrew-core is the default formulae barrel, so no need to tap.
+* Fix contructor usage in C++98
+* Add exposure control of the color camera
+* Contributors: CismonX, David da Silva, Lingzhu Xiang, Marc Hanheide, Saul Thurrowgood
+
 0.0.9 (2018-09-22)
 ------------------
 * Merge pull request `#1 <https://github.com/LCAS/libfreenect2/issues/1>`_ from LCAS/cuda9.0
