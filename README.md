@@ -1,3 +1,26 @@
+## libfreenect2 (melodic) - 0.1.0-1
+
+The packages in the `libfreenect2` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -n -t melodic -r melodic libfreenect2` on `Sun, 24 Nov 2019 21:40:04 -0000`
+
+The `libfreenect2` package was released.
+
+Version of package(s) in repository `libfreenect2`:
+
+- upstream repository: https://github.com/LCAS/libfreenect2.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## libfreenect2 (kinetic) - 0.1.0-1
 
 The packages in the `libfreenect2` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y --no-web -t kinetic -r kinetic libfreenect2` on `Sun, 24 Nov 2019 20:47:46 -0000`
